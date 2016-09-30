@@ -1,0 +1,31 @@
+{
+  "name": "file-metadata-ms",
+  "version": "0.0.1",
+  "description": "File Metadata microservice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavOnGit/file-metadata-ms.git"
+  },
+  "keywords": [
+    "file",
+    "metadata"
+  ],
+  "author": "Davide Vozzi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.14.0",
+    "multer": "1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.10.2"
+  },
+  "bugs": {
+    "url": "https://github.com/DavOnGit/file-metadata-ms/issues"
+  },
+  "homepage": "https://github.com/DavOnGit/file-metadata-ms#readme"
+}

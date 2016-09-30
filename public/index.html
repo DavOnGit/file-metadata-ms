@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>File Metadata Ms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheet/bootstrap.min.css">
+  </head>
+  <body>
+    <br>
+    <div class="container ">
+        <h1>File Metadata Microservice</h1>
+    </div>
+    <br><br>
+
+    <div class="container">
+        <p>This App returns the metadata of the submitted file</p>
+        <ul>
+            <li>You can upload one file with maximum size of 10 Megabyte.</li>
+        </ul>
+    </div>
+    <br>
+    <div class="container">
+      <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input  class="form-control" type="file" name="blob" id="blob" required>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
