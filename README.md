@@ -17,7 +17,7 @@ Make sure you have [Node.js](http://nodejs.org/) installed.
 
 ```sh
 $ git clone https://github.com/DavOnGit/file-metadata-ms.git # or clone your own fork
-$ cd timestamp-microservice
+$ cd file-metadata-ms
 $ npm install
 $ npm start
 ```
